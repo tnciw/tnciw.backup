@@ -6,14 +6,14 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: #000;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #000;
+  border: 1px solid #000;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #64a19d;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -61,26 +61,26 @@
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #64363C;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #FEDFE1;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #FEDFE1;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #FEDFE1;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #FEDFE1;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #FEDFE1;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #FEDFE1;
   }
 }
 
