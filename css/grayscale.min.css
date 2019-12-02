@@ -15,4 +15,18 @@
     box-shadow: 1px 1px 10px black;
   }
 
-  
+  #top-sec{
+  background-image: url('../img/bg.jpg'); 
+  background-position: center;
+  background-repeat:no-repeat; 
+  background-size: cover;
+  height: 100vh; 
+}
+
+#top-con{
+  background-image: url('../img/bg.jpg'); 
+  background-position: center;
+  background-repeat:no-repeat; 
+  background-size: cover;
+  height: 100vh; 
+}
