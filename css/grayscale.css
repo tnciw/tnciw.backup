@@ -6,14 +6,14 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #000;
+  background-color:transparent;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #000;
-  border: 1px solid #000;
+  color: #FEDFE1;
+  border: 1px solid #FEDFE1;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -21,20 +21,20 @@
 }
 
 #mainNav .navbar-brand {
-  color: #64a19d;
+  color: #FEDFE1;
   font-weight: 700;
   padding: .9rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: #fff;
   outline: none;
   background-color: transparent;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  background-color: transparent;
+  background-color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -47,38 +47,38 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: #FEDFE1;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #FEDFE1;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #FEDFE1;
   }
   #mainNav .nav-link:active {
-    color: white;
+    color: #FEDFE1;
   }
   #mainNav.navbar-shrink {
-    background-color: #64363C;
+    background-color: #58B2DC;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #FEDFE1;
+    color: #000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #FEDFE1;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #FEDFE1;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #FEDFE1;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #FEDFE1;
+    color: #fff;
     outline: none;
     border-bottom: 0.25rem solid #FEDFE1;
   }
@@ -163,7 +163,7 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
@@ -181,8 +181,8 @@
 
 #top-con {
     /*width: 550px;*/
-    /*margin-right: auto;*/
     /*margin-left: 200px;*/
+    /*margin-right: auto;*/
 
     padding-top: calc(50vh - 80px);
     height: 160px;
@@ -224,7 +224,7 @@
 
 #profilePic {
     width: 160px;
-    float: left;
+    /*float: left;*/
     margin-right: 15px;
     box-shadow: 1px 1px 10px black;
 }
@@ -288,6 +288,10 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+.space {
+    margin: 10px 0px 70px;
 }
 
 .contact-section {
