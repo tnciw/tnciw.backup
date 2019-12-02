@@ -171,6 +171,74 @@
   margin-bottom: 5rem;
 }
 
+#top-sec {
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#top-con {
+    /*width: 550px;*/
+    /*margin-right: auto;*/
+    /*margin-left: 200px;*/
+
+    padding-top: calc(50vh - 80px);
+    height: 160px;
+}
+
+.little {
+    margin: 0px;
+    color: #ededed;
+    text-shadow: 2px 1px 3px black;
+}
+
+.rounded {
+    border-radius: .25rem!important;
+}
+
+#titleName {
+    padding-top: 20px;
+    margin-bottom: 0px;
+    text-shadow: 2px 1px 7px black;
+}
+
+@media (max-width: 550px){
+  #titleName {
+      float: center;
+      padding-top: 20px;
+      margin-bottom: 0px;
+      text-shadow: 2px 1px 7px black;
+  }
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+#profilePic {
+    width: 160px;
+    float: left;
+    margin-right: 15px;
+    box-shadow: 1px 1px 10px black;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+header {
+    padding: auto;
+    margin: auto;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
