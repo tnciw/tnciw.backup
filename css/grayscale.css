@@ -240,7 +240,7 @@ header {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
@@ -295,7 +295,7 @@ header {
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 2rem 0 0;
 }
 
 .contact-section .card {
@@ -365,5 +365,5 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
